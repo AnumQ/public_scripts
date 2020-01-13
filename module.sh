@@ -5,7 +5,7 @@ fi
 
 mkdir -p "${BUILT_PRODUCTS_DIR}/MobileFramework"
 cat <<EOF > "${BUILT_PRODUCTS_DIR}/MobileFramework/module.modulemap"
-module EzioMobile {
+module MobileFramework {
     header "${PROJECT_DIR}/MobileFramework.framework/Headers/MobileFramework.h"
     export *
 }
